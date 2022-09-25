@@ -37,7 +37,7 @@ with header_container:
 	# for example a logo or a image that looks like a website header
 	# different levels of text you can include in your app
 	st.title("CMS-HCC prospective risk adjustment")
-	st.subheader("I welcome comments, feedback and opportunity to learn more or collaborate. Tweet @manas8u")
+	st.subheader("I am learning in public and welcome comments, feedback and opportunity to learn more or collaborate. Tweet @manas8u")
 	st.markdown("This is working draft of my understanding of ACO Risk score. This is my best understanding of how risk scores for CMS MSSP ACO are calculated. This is subject to revision.This page was created on 9/2022. Please check with me (or others) to check for the relevance of this document.")
 
 with main_container:
