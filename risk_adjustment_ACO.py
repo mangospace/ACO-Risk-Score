@@ -43,7 +43,6 @@ with header_container:
 with main_container:
     st.write("Most ACOs have a small number of newly assigned beneficiaries. For brevity, the bulk of this discussion will focus on on continuously assigned beneficiaries.:")
     st.write("CMS uses MA risk adjustment weights published by CMS for curent year after removing the coding intensity adjustment that it applies for MA program.")
-    st.write("CMS uses MA risk adjustment weights published by CMS for curent year after removing the coding intensity adjustment that it applies for MA program.")
     st.write("For each beneficiary, CMS uses risk score for **each month** in the enrollment category (e.g. ESRD, ND, Duals, Dis) to calculate beneficiaries average risk score for year.")
     st.write("Therefore, over an year, the risk scores used for beneficiaries in a Shared Savings Program enrollment status  (e.g., aged/non-dual eligible) may be derived from more than one risk adjustment model (e.g., community model versus institutional model versus new enrollee model.")
     st.write("At end of year, CMS calculates parameters to normalize aggregate risk scores such that that the mean national assignable FFS risk score for that enrollment type for that year equals 1.0. This is mean-centering around mean=1 and I think of this as standardization.")
