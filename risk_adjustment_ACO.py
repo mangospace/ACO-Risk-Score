@@ -41,6 +41,8 @@ with header_container:
 	st.markdown("This is working draft of my understanding of ACO Risk score. This is my best understanding of how risk scores for CMS MSSP ACO are calculated. This is subject to revision.This page was created on 9/2022. Please check with me (or others) to check for the relevance of this document.")
 
 with main_container:
+    st.write("Most ACOs have a small number of newly assigned beneficiaries. For brevity, the bulk of this discussion will focus on on continuously assigned beneficiaries.:")
+    st.write("CMS uses MA risk adjustment weights published by CMS for curent year after removing the coding intensity adjustment that it applies for MA program.")
     st.write("CMS uses MA risk adjustment weights published by CMS for curent year after removing the coding intensity adjustment that it applies for MA program.")
     st.write("For each beneficiary, CMS uses risk score for **each month** in the enrollment category (e.g. ESRD, ND, Duals, Dis) to calculate beneficiaries average risk score for year.")
     st.write("Therefore, over an year, the risk scores used for beneficiaries in a Shared Savings Program enrollment status  (e.g., aged/non-dual eligible) may be derived from more than one risk adjustment model (e.g., community model versus institutional model versus new enrollee model.")
